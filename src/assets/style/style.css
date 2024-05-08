@@ -1,0 +1,233 @@
+.website-navbar {
+  padding: 1vw 2vw;
+  border: 2px solid rgba(128, 128, 128, 0.11);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4vw;
+}
+.website-navbar button {
+  margin-left: 1vw;
+}
+.bg_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn {
+  padding: 1vw 2vw;
+  border-radius: 2vw;
+  font-size: 1.1vw;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn-light {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 2px solid rgba(73, 73, 73, 0.11);
+}
+.btn-light:hover {
+  background-color: rgb(226, 225, 225);
+}
+
+.btn-dark {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.footer {
+  padding: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(194, 194, 194, 0.334);
+  border-radius: 1.5vw;
+  margin-top: 2vw;
+}
+.footer span {
+  font-weight: 600;
+}
+.text_input_div input:focus {
+  outline: none;
+  border: 2px solid rgba(0, 0, 255, 0.3);
+  background-color: white;
+}
+.text_input_div input {
+  outline: none;
+  padding: 1vw;
+  border-radius: 34vw;
+  font-size: 1vw;
+  background: none;
+  transition: all 0.3s;
+  width: 100%;
+  background-color: rgba(156, 156, 156, 0.281);
+  border: 2px solid rgba(0, 0, 255, 0);
+}
+.text_input_div {
+  /* padding: 1vw;
+  
+  border-radius: 1.5vw; */
+  
+}
+.home_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_page_text2 {
+  font-size: 3vw;
+  margin-top: 0vw;
+}
+.HLBGI {
+  width: 28vw;
+  border-radius: 1.5vw;
+  height: 30vw;
+  margin-left: 20vw;
+}
+.success_story_container {
+  width: 100%;
+  display: flex;
+}
+.HLBGI .box {
+  width: 60%;
+  border-radius: 1vw;
+  padding: 1vw;
+  position: relative;
+  text-align: start;
+  box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
+}
+.HLBGI .box_1 {
+  background-color: white;
+  right: 8vw;
+  top: 40px;
+}
+.HLBGI .box_2 {
+  background-color: #002e18;
+  z-index: 2;
+  left: 20vw;
+  top: 160px;
+}
+.HLBGI .box_3 {
+  background-color: white;
+  display: flex;
+  gap: 1vw;
+  right: 60px;
+}
+.HLBGI .box_3 .image_container {
+  background-color: #ddefe0;
+  padding: 0.5vw;
+  width: 3vw;
+  border-radius: 3vw;
+  height: 3vw;
+}
+.HLBGI .box_3 .box_inside {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.HLBGI .box_3 .box_inside > span {
+  font-weight: 700;
+}
+
+.HLBGI .box_2,
+.box_1 > p {
+  color: #828282;
+}
+.HLBGI .box_2 > h1 {
+  color: white;
+}
+.HLBGI .box_2 > p {
+  color: #cccccc;
+}
+.home_story_right {
+  width: 44vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 4vw;
+}
+.carousal_container {
+  width: inherit;
+  height: inherit;
+}
+.home_story_right .home_carousal_cont {
+  width: 65%;
+  text-align: left;
+}
+.Faq_container {
+  width: 90vw;
+  background-color: #e8eee7;
+  border-radius: 2vw;
+  margin-top: 8vw;
+  display: flex;
+}
+.left_In_Faq_home > div {
+  font-size: 3vw;
+  font-weight: 600;
+}
+.left_In_Faq_home {
+  display: flex;
+  flex-direction: column;
+  margin: 4vw;
+  margin-left: 8vw;
+  text-align: left;
+}
+.left_In_Faq_home img {
+  width: 25vw;
+  height: 30vw;
+  position: relative;
+  right: 4vw;
+  margin-top: 3vw;
+}
+.faq_container .question_container {
+  padding: 1vw 0vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq_container .asnwer_container {
+  color: #617275;
+  width: 100%;
+  line-height: 24px;
+}
+.faq_container h1 {
+  margin: 0vw;
+  cursor: pointer;
+}
+.faq_container {
+  width: 40vw;
+  text-align: start;
+  border-bottom: 1px solid #d7d7d7;
+  margin: 4vw;
+}
+.form_page_container .form_heading {
+  font-size: 2.5vw;
+  width: 30vw;
+
+}
+.form_page_container {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2vw 0vw;
+}
+.form_page_container form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.success_page_container{
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  align-items: center;
+
+}
