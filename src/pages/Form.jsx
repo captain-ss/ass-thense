@@ -47,12 +47,9 @@ const Form = () => {
           onChange={validation.handleChange}
         />
         <Button
-        
           type="submit"
           theme={"dark"}
-          disabled={
-            validation.values.userName && validation.values.email ? "true" : "false"
-          }
+          disabled={!validation.values.userName && !validation.values.email}
         >
           Submit
         </Button>

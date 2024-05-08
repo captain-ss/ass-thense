@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FontGrace from "../component/Font/FontGrace";
 import { useNavigate } from "react-router-dom";
-
+import completeIcon from "../assets/Images/completeIcon.svg"
 const Success = () => {
   const history = useNavigate();
   const [redirectingTime, setRedirectingTime] = useState(5);
@@ -22,7 +22,9 @@ const Success = () => {
   }, [history]);
   return (
     <div className="success_page_container">
+      <img src={completeIcon} alt="" />
       <FontGrace tag="h1">Success Submitted</FontGrace>
+
       <div
         style={{
           fontSize: "2.3vw",
